@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
     "karma": "^4.0.1",
     "karma-jasmine": "^2.0.1",
     "karma-phantomjs-launcher": "^1.0.4",
-    "phantom": "^6.0.3"
+    "phantom": "^6.0.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }
